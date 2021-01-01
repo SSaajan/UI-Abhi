@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30.064" height="49.911" viewBox="0 0 30.064 49.911">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #fff;
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="track" transform="translate(-121.999 -592.288)">
+    <path id="Path_8" data-name="Path 8" class="cls-1" d="M473.888,604.7S443.444,559,473.888,559,473.888,604.7,473.888,604.7Z" transform="translate(-336.857 34.792)"/>
+    <g id="Ellipse_2" data-name="Ellipse 2" class="cls-1" transform="translate(128.185 598.266)">
+      <circle class="cls-2" cx="9.01" cy="9.01" r="9.01"/>
+      <circle class="cls-3" cx="9.01" cy="9.01" r="7.51"/>
+    </g>
+  </g>
+</svg>

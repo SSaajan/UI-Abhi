@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54.375" height="30.844" viewBox="0 0 54.375 30.844">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f99746;
+      }
+    </style>
+  </defs>
+  <path id="scroll-down" class="cls-1" d="M4.453,13.5H51.51a3.651,3.651,0,0,1,2.579,6.237L30.57,43.274a3.665,3.665,0,0,1-5.176,0L1.874,19.737A3.651,3.651,0,0,1,4.453,13.5Z" transform="translate(-0.794 -13.5)"/>
+</svg>

@@ -1,0 +1,240 @@
+.main-screen {
+    margin-left: 8vw;
+}
+
+.header {
+    padding: 2% 3%;
+    display: flex;
+    justify-content: space-between;
+
+    img {
+        width: 28%;
+    }
+
+    button {
+        margin-top: 1%;
+        border-radius: 10px;
+        background: white;
+        border-color: var(--primary-colour);
+        border-style: solid;
+        height: 50%;
+        padding: 1%;
+
+        a {
+            color: var(--primary-colour);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 110%;
+        }
+    }
+}
+
+.mid {
+    margin-left: 4%;
+    margin-right: 1%;
+    margin-top: 6%;
+    display: flex;
+    justify-content: space-between;
+
+    .hero-text {
+        h1 {
+            color: var(--primary-colour);
+            font-weight: 800;
+            font-size: 400%;
+            line-height: 1.1em;
+        }
+        p {
+            padding-top: 4%;
+            padding-bottom: 6%;
+            color: var(--secondary-colour);
+            font-weight: 400;
+            font-style: italic;
+            letter-spacing: .05em;
+        }
+        button {
+            background: var(--secondary-colour);
+            border: none;
+            border-radius: 8px;
+            padding: 3%;
+            a {
+                color: white;
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 120%;
+            }
+        }
+    }
+
+    img {
+        width: 45%;
+        margin-left: 1%;
+        margin-right: 5%;
+    }
+}
+
+.scroll {
+    margin-top: 3.5%;
+    text-align: center;
+    img {
+        width: 4%;
+        animation: move 1s infinite alternate;
+    }
+
+    @keyframes move {
+        0% {
+            transform: translateY(0px);
+        }
+        100% {
+            transform: translateY(20px);
+        }
+    }
+}
+
+.second-screen {
+    text-align: center;
+    margin-top: 5%;
+
+    h2 {
+            color: var(--primary-colour);
+            font-weight: 700;
+            font-size: 2em;
+            margin-bottom: 5%;
+            margin-top: 10%;
+        }
+
+    .clients {
+        display: flex;
+        justify-content: space-around;
+        
+        img {
+            width: 12%;
+        }
+        .apple {
+            width: 5%;
+        }
+        .tesla {
+            width: 7%;
+        }
+    }
+
+    .stats {
+        display: flex;
+        padding: 4% 0;
+        margin: 7% 8%;
+        border-radius: 15px;
+        justify-content: space-evenly;
+        text-align: center;
+        color: white;
+        background: var(--primary-colour);
+
+        h3 {
+            font-weight: 500;
+            font-size: 3em;
+            padding-right: 5%;
+        }
+        p {
+            text-align: left;
+            font-weight: 400;
+            font-style: italic;
+            font-size: 1em;
+        }
+        
+        .stats-sub {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    .footer {
+        img {
+            width: 10%;
+        }
+        a {
+            color: var(--secondary-colour);
+            text-decoration: none;
+            font-weight: 400;
+            font-size: .8em;
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-bottom: 2%;
+        }
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .main-screen {
+        margin: 0;
+        margin-bottom: 10vh;
+    }
+    .mid {
+        flex-direction: column;
+        align-items: center;
+        img {
+            width: 70%;
+            margin-top: 12%;
+        }
+    }
+    .scroll {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    * {
+        font-size: 6px;
+    }
+    .header {
+        padding: 5% 5%;
+        button {
+            padding: 1.5%;
+            margin-top: 0;
+            a {
+                font-size: 1.5em;
+            }
+        }
+    }
+    .mid {    
+        .hero-text {
+            h1 {
+                font-size: 7em;
+            }
+            p {
+                font-size: 2em;
+            }
+            button {
+                a {
+                    font-size: 2em;
+                }
+            }
+        }
+    }
+    .second-screen {
+        h2 {
+            font-size: 3em;
+        }
+        .stats {
+            margin-top: 10%;
+            margin-bottom: 10%;
+            .stats-sub {
+                h3{
+                    font-size: 5 em;
+                }
+                p {
+                    font-size: 1.5em;
+                }
+            }
+        }
+        .footer {
+            padding-bottom: 2%;
+            img {
+                padding-top: 2%;
+                padding-bottom: 1%;
+            }
+            a {
+                margin-bottom: 0;
+                font-size: 1.2em;
+                padding-bottom: 5%;
+            }
+        }
+    }
+}

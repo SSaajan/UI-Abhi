@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="info" transform="translate(-1.5 -1.5)">
+    <path id="Path_5" data-name="Path 5" class="cls-1" d="M48,25.5A22.5,22.5,0,1,1,25.5,3,22.5,22.5,0,0,1,48,25.5Z"/>
+    <path id="Path_6" data-name="Path 6" class="cls-1" d="M18,29.2V18" transform="translate(7.5 6.125)"/>
+    <path id="Path_7" data-name="Path 7" class="cls-1" d="M18,12h0" transform="translate(7.5 4.5)"/>
+  </g>
+</svg>
